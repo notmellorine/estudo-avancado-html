@@ -1,0 +1,122 @@
+<htm>
+    <head>
+        <title>Inserindo borda na tabela</title>
+    </head>
+
+<body>
+    <table border="3" bordercolor="FF6600" bgcolor="CCFFFF" align="center">
+        <tr>
+            <td>Nome</td>
+            <td>Sobrenome</td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td>Santos</td>
+        </tr>
+        <tr>
+            <td>Vanessa</td>
+            <td>Medeiros</td>
+        </tr>
+    </table>
+    <br>
+    <!-- atribuição da tag align -->
+    <table width="300" height="20%" border="2" align="center">
+        <tr bgcolor=#E0EEEE>
+            <td><font face="Comic Sans MS"><b>Nome</b></font></td>
+            <td><font face="Comic Sans MS"><b>Sobrenome</b></font></td>
+        </tr>
+        <tr>
+            <td><font face="Calibri">Anna</font></td>
+            <td><font face="Calibri">Santos</font></td>
+        </tr>
+        <tr bgcolor=#E0EEEE>
+            <td><font face="calibri">Vanessa</font></td>
+            <td><font face="calibri">Medeiros</font></td>
+        </tr>
+    </table>
+    <br>
+    <!-- uso da tag cellspacing, que serve pra atribuir um espaçamento das células entre a borda da tabela.-->
+    <table width="300" height="25%" border="4" cellspacing="10">
+        <tr bgcolor="E0F8E0">
+            <td align="center" valign="center" height="40" colspan="2"><font face="comic sans ms"><b>CADASTRO DE CLIENTES</b></font></td>
+        </tr>
+        <tr bgcolor=#E0EEEE>
+            <td><font face="calibri"><b>Nome</b></font></td>
+            <td><b>Sobrenome</b></td>
+        </tr>
+        <tr>
+            <td><font face="calibri">Anna</font></td>
+            <td><font face="calibri">Santos</font></td>
+        </tr>
+        <tr bgcolor=#E0EEEE>
+            <td><font face="calibri">Vanessa</font></td>
+            <td><font face="calibri">Medeiros</font></td>
+        </tr>
+    </table>
+    <br>
+    <!-- uso da tag cellpadding, que serve pra atribuir um espaçamento entre o contéudo de uma célula e a borda da mesma-->
+    <table width="300" height="25%" border="4" cellspacing="10" cellpadding="7">
+        <tr bgcolor="E0F8E0">
+            <td align="center" valign="center" height="40" colspan="2"><font face="comic sans ms"><b>CADASTRO DE CLIENTES</b></font></td>
+        </tr>
+        <tr bgcolor=#E0EEEE>
+            <td><font face="calibri"><b>Nome</b></font></td>
+            <td><b>Sobrenome</b></td>
+        </tr>
+        <tr>
+            <td><font face="calibri">Anna</font></td>
+            <td><font face="calibri">Santos</font></td>
+        </tr>
+        <tr bgcolor=#E0EEEE>
+            <td><font face="calibri">Vanessa</font></td>
+            <td><font face="calibri">Medeiros</font></td>
+        </tr>
+    </table>
+    <!-- atributos da tag td: align -->
+    <table width="300" height="20%" border="2">
+        <tr bgcolor=#e0eeee>
+            <td align="left"><b>Nome</b></td>
+            <td align="left"><b>Sobrenome</b></td>
+        </tr>
+        <tr>
+            <td align="center">Anna</td>
+            <td align="right">Santos</td>
+        </tr>
+    </table>
+    <br>
+    <!-- atributos da tag td: valing (move pra cima ou pra baixo) -->
+    <table width="300" height="20%" border="2">
+        <tr bgcolor=#e0eeee>
+            <td valign="bottom" height="30">Nome</td>
+            <td valing="top" height="30">Sobrenome</td>
+        </tr>
+        <tr>
+            <td valign="center" height="30">Anna</td>
+            <td valign="center" height="30">Santos</td>
+        </tr>
+    </table>
+    <br>
+    <!-- atributos da tag td: colspan (usado pra mesclar mais de uma célula de mais de uma coluna diferente) -->
+    <table width="300" height="20%" border="2">
+        <tr bgcolor=#e0eeee>
+            <td colspan="2"><b>Dados</b></td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td>Santos</td>
+        </tr>
+    </table>
+    <br>
+    <!-- atributos da tag td: rowspan (usado pra mescular mais de uma célula de mais de uma linha diferente) -->
+    <table width="300" height="20%" border="2">
+        <tr bgcolor=#e0eeee>
+            <td><b>Nome</b></td>
+            <td><b>Sobrenome</b></td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td rowspan="2">Santos</td>
+        </tr>
+    </table>
+</body>
+</htm>
